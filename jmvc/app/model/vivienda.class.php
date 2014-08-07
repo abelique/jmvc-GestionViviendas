@@ -2,7 +2,11 @@
 	require_once 'db.class.php';
 	
 	class vivienda extends database{
-		
+		/*
+		 * @param: limit de registros, default 10
+		 * funcion que se conecta y devuelve un array asociativo
+		 * con registros de viviendas
+		 */
 		function viviendas($limit = 10){
 			$this->conectar();
 			$query = $this->consulta("select id_tipo, zona, num_hab, precio, m2, piscina, foto from vivienda limit $limit");
