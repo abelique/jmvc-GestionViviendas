@@ -6,10 +6,7 @@ require_once "db.class.php";
 
 class universitario extends database {
 
- // ------Comentario que no interviene en la aplicación solo para comprobar un commit en github ------------- // 
-
- /* 
- REALIZA UNA CONSULTA A LA BASE DE DATOS EN BUSCA DE REGISTROS UNIVERSITARIOS DADOS COMO
+ /* REALIZA UNA CONSULTA A LA BASE DE DATOS EN BUSCA DE REGISTROS UNIVERSITARIOS DADOS COMO
  PARAMETROS LA "CARRERA" Y LA "CANTIDAD" DE REGISTROS A MOSTRAR
  INPUT:
  $carrera | nombre de la carrera a buscar
